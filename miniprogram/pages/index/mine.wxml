@@ -1,0 +1,83 @@
+<!--pages/index/mine.wxml-->
+<view class="mine">
+  <!-- 顶部个人资料 -->
+  <view class="top">
+    <view class="top-img">
+      <van-image round src="{{avatarUrl}}" width="120rpx" height="120rpx"></van-image>
+    </view>
+    <view class="top-name">
+      <view>{{userInfo.nickName}}</view>
+      <van-tag round color="#ffe1e1" text-color="#ad0000">普通会员</van-tag>
+    </view>
+    <!-- 我的订单 -->
+    <view class="top-panner top-order">
+      <view class="top-panner__title">
+        <text>我的订单</text>
+        <navigator>查看全部订单<van-icon name="arrow" /></navigator>
+      </view>
+      <view>
+
+      </view>
+    </view>
+  </view>
+  <view class="content">
+    <view class="top-panner" style="height:250rpx">
+      <view class="top-panner__title">
+        <text>必备工具</text>
+        <navigator>查看全部订单<van-icon name="arrow" /></navigator>
+      </view>
+      <view>
+
+      </view>
+    </view>
+    <view class="top-panner">
+      <van-cell
+        is-link
+        title="商家后台"
+        link-type="navigateTo"
+        url="/pages/dashboard/index"
+      />
+      <van-cell
+        is-link
+        title="上传商品"
+        link-type="navigateTo"
+        url="/pages/dashboard/index"
+      />
+      <van-cell
+        is-link
+        title="单元格"
+        link-type="navigateTo"
+        url="/pages/dashboard/index"
+      />
+      <van-cell
+        is-link
+        title="单元格"
+        link-type="navigateTo"
+        url="/pages/dashboard/index"
+      />
+    </view>
+    <view class="top-panner">
+      <van-cell
+        is-link
+        title="我要吐槽"
+        link-type="navigateTo"
+        url="/pages/dashboard/index"
+      />
+      <van-cell
+        is-link
+        title="常见问题"
+        link-type="navigateTo"
+        url="/pages/dashboard/index"
+      />
+      <van-cell
+        is-link
+        title="关于我们"
+        link-type="navigateTo"
+        url="/pages/dashboard/index"
+      />
+    </view>
+    <view class="call-us">
+      联系客服 <text bindtap="callMe">13480847755</text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,68 @@
+/* pages/index/mine.wxss */
+.top{
+  position: relative;
+  height: 380rpx;
+  background: -webkit-linear-gradient(right, #FD9126, #FF5000);
+  background: -o-linear-gradient(right, #FD9126, #FF5000);
+  background: -moz-linear-gradient(right, #FD9126, #FF5000);
+  background: linear-gradient(to right, #FD9126, #FF5000);
+  display: flex;
+  align-items: center;
+}
+.top-img{
+  width: 180rpx;
+  text-align: center;
+}
+.top-name {
+  flex: 1;
+}
+.top-name view{
+  padding-left: 10rpx;
+}
+.top-name view,.top-name text{
+  color: #ffffff;
+  font-size: 14px;
+}
+.top-order{
+  position: absolute;
+  bottom: -180rpx;
+  height: 250rpx;
+}
+.top-panner{
+    background: #FFFFFF;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 8px 12px #ebedf0;
+    overflow: hidden;
+}
+.top-panner__title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #f2f2f2;
+  font-size: 15px;
+  font-weight: bold;
+}
+.top-panner__title navigator{
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  color: #cccccc;
+}
+.content{
+  margin-top: 200rpx;
+}
+.call-us{
+  font-size: 16px;
+  font-weight: bold;
+  margin: 20px auto;
+  text-align: center;
+}
+.call-us text{
+  color: #FF5000;
+  font-weight: normal;
+  font-size: small;
+}
